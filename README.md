@@ -1,5 +1,9 @@
 # VectoriumPy
 
+<p align="center">
+  <img src="VectoriumPy/Logo/Vectorium_logo.png" width="200">
+</p>
+
 VectoriumPy is a small, modular Python library of common physics formulas, helpers, and lightweight simulation utilities aimed at education, quick calculations, and small-scale experiments.
 
 Project status: This repository contains the result of an intensive one-month development effort to gather, implement, and test compact physics utilities and examples. The codebase was created and refined over a single month with the goal of providing clear, well-tested helpers for teaching and experimentation.
