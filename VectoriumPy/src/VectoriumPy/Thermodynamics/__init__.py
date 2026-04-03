@@ -1,1 +1,0 @@
-from .Thermodynamics import first_law_thermodynamics,entropy,enthalpy,Gibbs_free_energy,ideal_gas_law,Helmholtz_free_energy

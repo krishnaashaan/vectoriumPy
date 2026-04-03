@@ -1,2 +1,0 @@
-from .electricity import ohms_law,electric_capacitance,electric_power,electric_resonance,electric_energy,Joules_law_of_heating
-from .circuit import series_resistance,parallel_resistance,voltage_division,current_division
