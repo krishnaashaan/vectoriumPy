@@ -12,18 +12,15 @@ def sound_wave(v,f,λ):
     Returns:
     tuple: A tuple containing the velocity, frequency, and wavelength of the sound wave.
     """
-    known=[v,f,λ].count("?")
+    known=[v,f,λ].count(None)
     if known>1:
         raise ValueError('Please provide values for at least three of the parameters.')
-    if v == "?":
-        v = f*λ
-        return v
-    elif f == "?":
-        f = v/λ
-        return f
-    elif λ == "?":
-        λ = v/f
-        return λ
+    if v is None:
+        return f*λ
+    elif f is None:
+        return v/λ
+    elif λ is None:
+        return v/f
 def Doppler_effect():
     pass
   # Fuction Will be added in the future

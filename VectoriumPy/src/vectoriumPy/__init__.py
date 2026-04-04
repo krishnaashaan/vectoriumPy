@@ -17,7 +17,7 @@ from .Electricity.circuit import series_resistance,parallel_resistance,voltage_d
 from .Waves import light_wave,Doppler_effect,Snell_law,sound_wave
 
 # Thermodynamics
-from .Thermodynamics import first_law_thermodynamics,entropy,enthalpy,Gibbs_free_energy,ideal_gas_law,Helmholtz_free_energy
+from .Thermodynamics import first_law_thermodynamics,entropy,enthalpy,Gibbs_free_energy,ideal_gas_law,Helmholtz_free_energy,Latent_Heat
 
 # Optics
-from .Optics import mirror_formula,lens_formula
+from .Optics import mirror_formula,lens_formula,magnification

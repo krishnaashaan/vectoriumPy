@@ -223,4 +223,23 @@ def ideal_gas_law(P, V, n, T, R):
    if T == "?":
       T = P * V / (n * R)
       return T
+def Latent_Heat(Q,m,L):
+   """
+   calculates the total thermal energy absorbed or released during a phase change at a constant temperature.
+   Q = m*L
+   """
+   knows=[Q,m,L].count('?')
+   if knows >1:
+      raise ValueError('Provide at least 2 values ')
+   
+   if Q == '?':
+       Q = m*L
+       return Q   
+   elif m =='?':
+      m = Q/L
+      return m
+   elif L == '?':
+      L = Q/m
+      return L
+  
 # More functions will be added in the future.
