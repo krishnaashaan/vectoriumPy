@@ -1,1 +1,0 @@
-from .optics import mirror_formula,lens_formula,magnification,power_dioptre
