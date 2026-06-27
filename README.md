@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img src="VectoriumPy/Logo/Vectorium_logo.png" width="500" alt="Vectorium logo">
+  <img src="Logo/Vectorium_logo.png" width="500" alt="Vectorium logo">
 </p>
 
 
