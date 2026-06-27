@@ -1,0 +1,47 @@
+[project]
+name = "vectoriumPy"
+version = "0.3.0"
+description = "A Python library containing common physics utilities for education and quick calculations."
+readme = "README.md"
+requires-python = ">=3.8"
+
+authors = [
+    { name = "Krishnaashaan" }
+]
+
+keywords = ["physics", "kinematics", "vectors", "education"]
+
+dependencies = []
+
+license = { text = "MIT" }
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Education",
+]
+
+[project.urls]
+Homepage = "https://github.com/krishnaashaan/vectoriumPy"
+Repository = "https://github.com/krishnaashaan/vectoriumPy"
+Issues = "https://github.com/krishnaashaan/vectoriumPy/issues"
+
+# ----------------------------
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# ----------------------------
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
