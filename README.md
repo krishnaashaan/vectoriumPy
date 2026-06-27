@@ -1,6 +1,28 @@
 # VectoriumPy
 ![License](https://img.shields.io/github/license/krishnaashaan/vectoriumPy)
+![GitHub stars](https://img.shields.io/github/stars/krishnaashaan/vectoriumPy?style=social)
+![GitHub forks](https://img.shields.io/github/forks/krishnaashaan/vectoriumPy?style=social)
+![GitHub issues](https://img.shields.io/github/issues/krishnaashaan/vectoriumPy)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/krishnaashaan/vectoriumPy)
+![Last commit](https://img.shields.io/github/last-commit/krishnaashaan/vectoriumPy)
+![Python version](https://img.shields.io/badge/python-3.8%2B-blue)
 
+
+<p align="center">
+  <img src="Logo/Vectorium_logo.png" width="500" alt="Vectorium logo">
+</p>
+
+
+VectoriumPy is a lightweight, modular Python library of common physics formulas, helpers, and small simulation utilities for education and quick calculations.
+
+**Goals:** clear, well-tested helpers for kinematics, forces, energy, electricity, waves, magnetism, and thermodynamics.
+
+**Quick start**
+
+Install from PyPI (when published):
+
+```bash
+pip install vectoriumPy
 
 <p align="center">
   <img src="Logo/Vectorium_logo.png" width="500" alt="Vectorium logo">
